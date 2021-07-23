@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap Stylesheet  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- FontAwesome  -->
+  <script src="https://kit.fontawesome.com/23aa869f20.js" crossorigin="anonymous"></script>
+  <!-- Css Style  -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Travel | Tour the Wolrd!</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar Section  -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-search-location fa-2x"></i> <span class="h1 fw-bold">Travel</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex">
+          <input class="form-control me-2 fw-bold" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success fw-bold" type="submit">Search</button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Trip</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Rooms</a></li>
+                <li><a class="dropdown-item" href="#">Restaurants</a></li>
+                <li><a class="dropdown-item" href="#">Location</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#">About us</a>
+            </li>
+            <button type="button" class="btn btn-warning fw-bold">SIGN UP</button>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section  -->
+    <section class="hero">
+      <div class="container ">
+        <h1 class="text-white fw-bold mb-5 ">Take only Memories, Leave only Footprints!</h1>
+        <div class="row bg-white rounded-pill p-1 g-2 search-form">
+          <div class="col-lg-4 col-12 form-group  ">
+            <input class="form-control border-0 shadow-0 ms-4 client-input " type="text" name="search"
+              placeholder="What are you searching for?">
+          </div>
+          <div class="col-lg-3 form-group ">
+            <div class="d-flex align-items-center input-label-absolute input-label-absolute-right ms-3 client-input">
+              <label class="label-absolute" for="location"><i class="fa fa-crosshairs"></i><span
+                  class="sr-only">City</span></label>
+              <input class="form-control border-0 shadow-0" type="text" name="location" placeholder="Location"
+                id="location">
+            </div>
+          </div>
+          <div class="col-lg-3 mt-1 ">
+            <div class="dropdown ">
+              <button class="btn btn-secondary dropdown-toggle bg-white text-dark broder-0 ms-4 client-input" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Rooms</a></li>
+                <li><a class="dropdown-item" href="#">Restaurants</a></li>
+                <li><a class="dropdown-item" href="#">Location</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-lg-2 d-grid p-0 mt-0 ">
+            <button type="button" class="btn btn-primary rounded-pill p-2 fw-bold h-100">Search</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-- Service Info Section  -->
+    <section>
+      <div class="container-fluid bg-light section-title">
+        <div class="text-center ">
+          <h4 class="text-danger fw-bold">ONE-OF-A-KIND VACATION RENTALS</h4>
+          <h1 class="fw-bold">Booking with us is easy
+          </h1>
+        </div>
+        <div class="container text-center ">
+          <div class="row mt-5">
+            <div class="col-lg-4 ">
+              <i class="fas fa-search fa-3x"></i>
+              <h3 class="fw-bold mt-4">Find the perfect rental</h3>
+              <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in
+              </p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <i class="fab fa-cc-mastercard fa-3x"></i>
+              <h3 class="fw-bold mt-4">Book with confidence
+              </h3>
+              <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in
+              </p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <i class="far fa-heart fa-3x"></i>
+              <h3 class="fw-bold mt-4">Enjoy your vacation
+              </h3>
+              <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Guides Section  -->
+    <section>
+      <div class="container-fluid section-title">
+        <div class="container">
+          <div>
+            <p class="fw-bold text-primary text-uppercase">Stay and Eat Like a Local</p>
+            <h1 class="fw-bold">Our Guides</h1>
+          </div>
+          <div class="countries-container mt-5">
+            <div class="country">
+              <div class="cuntry-img">
+                <img src="./img/country/new york.jpg" alt="">
+              </div>
+              <div class="contry-info">
+                <h3 class="fw-bold text-white mb-0">NEW YORK</h3>
+                <p class=" text-white">The big Apple</p>
+              </div>
+            </div>
+            <div class="country">
+              <div class="cuntry-img">
+                <img src="./img/country/italy.jpg" alt="">
+              </div>
+              <div class="contry-info">
+                <h3 class="fw-bold text-white mb-0">ITALY</h3>
+                <p class=" text-white">Tower of Pisa</p>
+              </div>
+            </div>
+            <div class="country">
+              <div class="cuntry-img">
+                <img src="./img/country/bercelona.jpg" alt="">
+              </div>
+              <div class="contry-info">
+                <h3 class="fw-bold text-white mb-0">BERCELONA</h3>
+                <p class=" text-white">The Metropolis Building</p>
+              </div>
+            </div>
+            <div class="country">
+              <div class="cuntry-img">
+                <img src="./img/country/london.jpg" alt="">
+              </div>
+              <div class="contry-info">
+                <h3 class="fw-bold text-white mb-0">LONDON</h3>
+                <p class=" text-white">The Great Bell</p>
+              </div>
+            </div>
+            <div class="country">
+              <div class="cuntry-img">
+                <img src="./img/country/paris.jpg" alt="">
+              </div>
+              <div class="contry-info">
+                <h3 class="fw-bold text-white mb-0">NEW YORK</h3>
+                <p class=" text-white">The big Apple</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Last Minute Deals Section  -->
+    <section>
+      <div class="container-fluid bg-light section-title">
+        <div class="container">
+          <div>
+            <h4 class="fw-bold text-danger">HURRY UP, THESE ARE EXPIRING SOON. </h4>
+            <h1 class="fw-bold">
+              Last minute deals
+            </h1>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow">
+                <img src="./img/building/building-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Modern, Well- Apponted House</h5>
+                  <div class="d-flex justify-content-between">
+                    <p>Private room</p>
+                    <p>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                    </p>
+                  </div>
+                  <span class="h3 fw-bold text-primary">$80</span> <span>Per Night</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow">
+                <img src="./img/building/building-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Cute Quirky Garden apt, NYC adjacent</h5>
+                  <div class="d-flex justify-content-between">
+                    <p>Entire Appt.</p>
+                    <p>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-muted"></i>
+                    </p>
+                  </div>
+                  <span class="h3 fw-bold text-primary">$121</span> <span>Per Night</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="card shadow">
+                <img src="./img/building/building-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Modern Apt - Vibrant Neighborhood!</h5>
+                  <div class="d-flex justify-content-between">
+                    <p>Shared room</p>
+                    <p>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-muted"></i>
+                    </p>
+                  </div>
+                  <span class="h3 fw-bold text-primary">$75</span> <span>Per Night</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ">
+              <div class="card shadow">
+                <img src="./img/building/building-4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Sunny Private Studio-Apartment</h5>
+                  <div class="d-flex justify-content-between">
+                    <p>Shared room</p>
+                    <p>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-muted"></i>
+                    </p>
+                  </div>
+                  <span class="h3 fw-bold text-primary">$95</span> <span>Per Night</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Holiday Section  -->
+    <section class="holiday mb-5">
+      <div>
+        <h1 class="fw-bold text-white">Ready for your next holidays?
+        </h1>
+        <button type="button" class="btn btn-light">Get Started</button>
+      </div>
+    </section>
+
+    <!-- Testimonials Section  -->
+    <section>
+      <div class="container">
+        <div class="section-title text-center">
+          <h3 class="text-primary">TESTIMONIALS</h3>
+          <h1 class="fw-bold">Our dear customers said about us
+          </h1>
+        </div>
+        <div class="row g-4 mb-5">
+            <div class="col-lg-5 tastimonial shadow rounded-3 ">
+              <div class="testimonial-img">
+                <img src="./img/testimonial/player-3.png" alt="">
+              </div>
+              <div class="text">
+                <i class="fas fa-quote-right fa-2x"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ex, ipsa hic maiores maxime
+                  corporis ab, placeat autem aut delectus odio expedita repudiandae totam ratione? Esse culpa minus
+                  quisquam molestias?</p>
+                <strong>Kalli Brush</strong>
+              </div>
+            </div>
+            <div class="tastimonial shadow rounded-3 col-lg-5">
+              <div class="testimonial-img">
+                <img src="./img/testimonial/player-5.png" alt="">
+              </div>
+              <div class="text">
+                <i class="fas fa-quote-right fa-2x"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ex, ipsa hic maiores maxime
+                  corporis ab, placeat autem aut delectus odio expedita repudiandae totam ratione? Esse culpa minus
+                  quisquam molestias?</p>
+                <strong>Kalli Brush</strong>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Travel Blog Section  -->
+    <section class="travel-blog">
+      <div class="container">
+        <div class="section-title">
+          <strong class="text-primary ">STORIES FROM AROUND THE GLOBE </strong>
+          <h1 class="fw-bold ">From our travel blog
+          </h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card h-100 border-0 shadow">
+              <img src="./img/travel/travel-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="fw-bold text-muted">TRAVEL</p>
+                <h5 class="card-title fw-bold">Travling fashion tips and tricks</h5>
+                <p class="card-text">As some of you may know, I have been in the design industry for the past 10 years working as a freelance designer in various companies while also running this blog. In fact, the majority of my income is mostly from my design freelance work over at The Pete Design.</p>
+              </div>
+              <div class="card-footer border-0 bg-white text-primary fw-bold">
+                <small class=" ">Read more <i class="fas fa-arrow-right"></i></small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card h-100 border-0 shadow">
+              <img src="./img/travel/travel-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="fw-bold text-muted">LIVING</p>
+                <h5 class="card-title fw-bold">Best places to Travel in 2022</h5>
+                <p class="card-text">While I read many travel-hacking blogs, I follow Gary because he provides industry analysis and behind-the-scenes information on loyalty programs and airlines. Gary doesn’t just provide trip reports or share deals and reward opportunities, he gives you context and a greater understanding of how travel hacking and airlines operate.</p>
+              </div>
+              <div class="card-footer border-0 bg-white text-primary fw-bold">
+                <small class=" ">Read more <i class="fas fa-arrow-right"></i></small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card h-100 border-0 shadow">
+              <img src="./img/travel/travel-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="fw-bold text-muted">TRAVEL</p>
+                <h5 class="card-title fw-bold">Tips ang Tricks for Solo Traveler</h5>
+                <p class="card-text">Lauren is the most accident prone traveler I know. Anything that can go wrong usually does go wrong when she travelers. She’s one of the unluckiest travelers I know. But all that misadventure leads to some amazing travel stories and her blog is filled with funny tales that will keep you captivated for hours.</p>
+              </div>
+              <div class="card-footer border-0 bg-white text-primary fw-bold">
+                <small class=" ">Read more <i class="fas fa-arrow-right"></i></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container-fluid bg-dark ">
+      <div class="container text-white p-4">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <strong>© 2021, Travel Blog. All rights reserved.</strong>
+          </div>
+          <div>
+            <i class="fab fa-cc-mastercard fa-2x me-2"></i>
+            <i class="fab fa-cc-visa fa-2x me-2"></i>
+            <i class="fab fa-cc-paypal fa-2x me-2"></i>
+            <i class="fab fa-cc-discover fa-2x "></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Script  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
